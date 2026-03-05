@@ -1,16 +1,8 @@
-```json
 {
   "version": 2,
   "functions": {
     "api/send-scheduled-call.js": {
       "runtime": "nodejs18.x"
     }
-  },
-  "crons": [
-    {
-      "path": "/api/send-scheduled-call",
-      "schedule": "* * * * *"
-    }
-  ]
+  }
 }
-```
